@@ -1,7 +1,7 @@
 # gg
 Demo repository for Malaga Geek Guild presentation
 
-#Proposed agenda:
+Proposed agenda:
 
 1. Geo-/Spatial-awareness
 

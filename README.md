@@ -16,7 +16,7 @@
   * Data Transformation: Safe (FME)
 
 
-**2. Discuss GitHub Basics**
+**2. Discuss GitHub Basics** <br>
 Use whiteboard and walk through .js map example
 
 **3. Malaga Geek Guild MISSION!**

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Malaga Geek Guild</title>
 <link rel="stylesheet" href="leaflet/leaflet.css" />
 <script src="leaflet/leaflet.js"></script>
@@ -20,17 +21,17 @@ html, body {
 <script>
 var map = L.map('mapid').setView([51.505, 15], 4);
 
-/**
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-**/
 
+/**
 // Use HERE Maps with Axels personal account
 L.tileLayer.provider('HERE.normalDay', {
     app_id: 'EQl2FY1QzVsQSxIM1ye0',
     app_code: 'RDVeNZhVeYNsbksTWmkaSg'
 }).addTo(map);
+**/
 
 var blueIcon = new L.Icon({
 	iconUrl: 'leaflet/images/marker-icon-2x-blue.png',

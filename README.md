@@ -1,7 +1,7 @@
 # gg
-Demo repository for Malaga Geek Guild presentation
+<h1>Demo repository for Malaga Geek Guild presentation</h1>
 
-Proposed agenda:
+<h2>Proposed agenda:</h2>
 
 **1. Geo-/Spatial-awareness**
 * Data types

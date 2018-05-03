@@ -7,7 +7,7 @@
 * Data types
   * GIS Analysis
   * Coordinates
-  * Projections: 
+  * Projections: https://thetruesize.com 
 * Industries
 * Vendors/Competition
   * Oracle Locator/Spatial - MCS LBS: https://blogs.oracle.com/mobile/learn-about-oracle-mcs-location-based-services-from-these-new-videos

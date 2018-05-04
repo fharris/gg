@@ -20,6 +20,8 @@
 Use whiteboard and walk through .js map example
 
 **3. Malaga Geek Guild MISSION!**
+ADD: We are using LEAFLET LIBRARY
+
 - [ ] Create a GitHub Account
 - [ ] Create a FORK ([XXX]/gg, where [XXX] is your GitHub usrname) of https://github.com/brondera/gg
 - [ ] Download the code (.zip) & Review

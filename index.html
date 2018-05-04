@@ -107,6 +107,8 @@ var blackIcon = new L.Icon({
 
 var marker = L.marker([51.5, -0.09]).addTo(map);
 var malaga = L.marker([36.72, -4.43], {icon: redIcon}).addTo(map);
+var NL = L.marker([51.9044685,4.234554000000003], {icon: orangeIcon}).addTo(map);
+var Warsaw = L.marker([52.2296756,21.012228700000037], {icon: greenIcon}).addTo(map);
 
 var circle = L.circle([51.508, -0.11], {
     color: 'red',
@@ -125,6 +127,8 @@ marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 circle.bindPopup("I am a circle.");
 polygon.bindPopup("I am a polygon.");
 malaga.bindPopup("<b>Wow!</b> You found me in Malaga!");
+NL.bindPopup("<b>Wow!</b> You found me in NL!");
+Warsaw.bindPopup("<b>Wow!</b> You found me in Warsaw!");
 
 </script>
  

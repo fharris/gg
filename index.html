@@ -19,19 +19,11 @@ html, body {
 </style>
 
 <script>
-var map = L.map('mapid').setView([51.505, 15], 4);
+var map = L.map('mapid').setView([37.78, -25.17], 4);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-
-/**
-// Use HERE Maps with Axels personal account
-L.tileLayer.provider('HERE.normalDay', {
-    app_id: 'EQl2FY1QzVsQSxIM1ye0',
-    app_code: 'RDVeNZhVeYNsbksTWmkaSg'
-}).addTo(map);
-**/
 
 var blueIcon = new L.Icon({
 	iconUrl: 'leaflet/images/marker-icon-2x-blue.png',
@@ -110,19 +102,21 @@ var malaga = L.marker([36.72, -4.43], {icon: redIcon}).addTo(map);
 var les_abymes = L.marker([16.272025, -61.561792], {icon: violetIcon}).addTo(map);
 var NL = L.marker([51.9044685,4.234554000000003], {icon: orangeIcon}).addTo(map);
 var Warsaw = L.marker([52.2296756,21.012228700000037], {icon: greenIcon}).addTo(map);
+var jaen = L.marker([37.78, -3.78], {icon: blackIcon}).addTo(map);
 
 
-var circle = L.circle([51.508, -0.11], {
+var circle = L.circle([59.32, 18.02], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 500
+    radius: 50000
 }).addTo(map);
 
 var polygon = L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
+    [50.07, -5.69],
+    [50.509, -1.08],
+    [51.503, -2.06],
+    [52.51, -4.047]
 ]).addTo(map);
 
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
@@ -132,9 +126,7 @@ malaga.bindPopup("<b>Wow!</b> You found me in Malaga!");
 les_abymes.bindPopup("<b>Calor!</b> Where I was born!");
 NL.bindPopup("<b>Wow!</b> You found me in NL!");
 Warsaw.bindPopup("<b>Wow!</b> You found me in Warsaw!");
-var jaen = L.marker([37.78, -3.78], {icon: blackIcon}).addTo(map);
 jaen.bindPopup("<b>Welcome to the capital of the Empire!!</b>");
-
 
 </script>
  
